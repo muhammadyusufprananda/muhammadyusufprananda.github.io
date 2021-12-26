@@ -1,0 +1,366 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  height: 100%;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+h3,
+h4,
+h5 {
+  font-weight: 600;
+}
+
+.B-header {
+  background-color: #f8f8f8;
+  height: 10%;
+}
+
+.B-header .nav {
+  height: 100%;
+}
+
+.B-header .nav-item .nav-link {
+  font-weight: 600;
+  transition: 0.5s;
+  color: black;
+}
+
+.B-header .nav-item .nav-link:hover {
+  background-color: #1a9bf3;
+  border-radius: 15px;
+  transition: 0.5s;
+  color: white;
+}
+
+.B-header .nav-item .nav-link a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+.B-header .nav-item .nav-link a:hover {
+  color: inherit;
+  transition: 0.1s;
+}
+
+.B-header .nav-item .nav-link.active {
+  background-color: #1a9bf3;
+  border-radius: 15px;
+  color: white;
+}
+
+.B-header .nav-item .nav-link.active:hover {
+  border-radius: 0px;
+  background-color: #f8f8f8;
+  color: black;
+}
+
+.B-header .nav-item .nav-link.active a {
+  color: inherit;
+}
+
+.B-header .nav-item .nav-link.active a:hover {
+  color: inherit;
+}
+
+.B-konten {
+  height: 80%;
+}
+
+.B-home,
+.B-home .d-flex,
+.B-about,
+.B-about .d-flex,
+.B-skills,
+.B-skills .d-flex,
+.B-experiences,
+.B-experiences .d-flex,
+.B-projects,
+.B-projects .d-flex,
+.B-certifications,
+.B-certifications .d-flex {
+  height: 100%;
+}
+
+.B-about .d-flex,
+.B-skills .d-flex,
+.B-experiences .d-flex,
+.B-projects .d-flex,
+.B-certifications .d-flex {
+  margin: 0px 150px;
+}
+
+.B-skills .d-flex.flex-column,
+.B-experiences .d-flex.flex-column,
+.B-projects .d-flex.flex-column,
+.B-certifications .d-flex.flex-column {
+  height: 20%;
+}
+
+.B-skills .d-flex.flex-row,
+.B-experiences .d-flex.B-flexColumn,
+.B-projects .d-flex.B-flexColumn,
+.B-certifications .d-flex.B-flexColumn {
+  height: 80%;
+}
+
+.B-informasi {
+  margin: 48px;
+}
+
+.B-hello {
+  background-color: #1a9bf3;
+  width: 100px;
+  border-radius: 20px 20px 20px 0px;
+}
+
+.B-nama h5 span {
+  color: #1a9bf3;
+}
+
+.B-kontak p {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.B-sosial a {
+  color: inherit;
+}
+
+.B-fotoHome {
+  width: 250px;
+  border-radius: 50%;
+  margin: 48px;
+}
+
+.B-fotoAbout {
+  width: 250px;
+  border-radius: 10px;
+  margin: 48px;
+}
+
+.B-about .B-paragraf {
+  font-size: 13px;
+}
+
+.B-unduh .btn-primary {
+  background-color: #1a9bf3;
+  color: white;
+  font-size: 11px;
+  border: 0px;
+}
+
+.B-unduh .btn-primary a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.B-skillsItem {
+  padding: 0px 15px;
+  width: 33.33%;
+  text-align: center;
+}
+
+.B-skillsItem p {
+  text-align: justify;
+  font-size: 12px;
+}
+
+.B-beginner {
+  background-color: #1a9b03;
+  border-radius: 15px;
+  font-size: 12px;
+  color: white;
+}
+
+.B-intermediate {
+  background-color: #1a9b83;
+  border-radius: 15px;
+  font-size: 12px;
+  color: white;
+}
+
+.B-advance {
+  background-color: #1a9bf3;
+  border-radius: 15px;
+  font-size: 12px;
+  color: white;
+}
+
+.B-experiencesItem,
+.B-certificationsItem {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.B-experiencesItem p,
+.B-certificationsItem p {
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+
+.B-projects .carousel .carousel-inner .carousel-item .carousel-caption a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.B-certificationsItem a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.B-footer {
+  height: 10%;
+}
+
+.B-footer .d-flex {
+  height: 100%;
+}
+
+.B-footer p {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 576px) {
+  html,
+  body {
+    height: auto;
+  }
+
+  .B-header {
+    height: auto;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .B-header .nav {
+    height: auto;
+  }
+
+  .B-header .nav-item .nav-link.active {
+    background-color: #1a9bf3;
+    border-radius: 15px;
+    color: white;
+  }
+
+  .B-header .nav-item .nav-link.active:hover {
+    border-radius: 15px;
+    background-color: #1a9bf3;
+    color: white;
+  }
+
+  .B-header .nav-item .nav-link.active a {
+    color: inherit;
+  }
+
+  .B-header .nav-item .nav-link.active a:hover {
+    color: inherit;
+  }
+
+  .B-konten {
+    height: auto;
+  }
+
+  .B-home,
+  .B-home .d-flex,
+  .B-about,
+  .B-about .d-flex,
+  .B-skills,
+  .B-skills .d-flex,
+  .B-experiences,
+  .B-experiences .d-flex,
+  .B-projects,
+  .B-projects .d-flex,
+  .B-certifications,
+  .B-certifications .d-flex {
+    height: auto;
+  }
+
+  .B-about .d-flex,
+  .B-skills .d-flex,
+  .B-experiences .d-flex,
+  .B-projects .d-flex,
+  .B-certifications .d-flex {
+    margin: 0px 50px;
+  }
+
+  .B-skills .d-flex.flex-column,
+  .B-experiences .d-flex.flex-column,
+  .B-projects .d-flex.flex-column,
+  .B-certifications .d-flex.flex-column {
+    height: auto;
+  }
+
+  .B-skills .d-flex.flex-row,
+  .B-experiences .d-flex.B-flexColumn,
+  .B-projects .d-flex.B-flexColumn,
+  .B-certifications .d-flex.B-flexColumn {
+    height: auto;
+  }
+
+  .B-informasi {
+    margin: 20px 48px;
+  }
+
+  .B-hello {
+    width: 80px;
+    font-size: 13px;
+  }
+
+  .B-nama h1 {
+    font-size: 35px;
+  }
+
+  .B-nama h5 {
+    font-size: 16px;
+  }
+
+  .B-fotoHome {
+    width: 190px;
+    margin: 10px;
+  }
+
+  .B-fotoAbout {
+    width: 190px;
+    margin: 20px;
+  }
+  .B-informasiAbout {
+    margin: 20px 0px;
+  }
+
+  .B-skillsItem {
+    width: auto;
+  }
+
+  .B-experiencesItem,
+  .B-certificationsItem {
+    width: 100%;
+  }
+
+  #carouselProjects {
+    height: 500px;
+  }
+
+  .carousel-item, .carousel-item img {
+    height: 500px;
+  }
+
+  .B-footer {
+    height: auto;
+    padding: 20px;
+  }
+
+  .B-footer .d-flex {
+    height: auto;
+  }
+}
